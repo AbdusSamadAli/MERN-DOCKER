@@ -3,7 +3,7 @@ version: "3.9"
 services:
 
   frontend:
-    image: yourdockerhubusername/mern-frontend:latest
+    image: Samad-123/mern-frontend:latest
     build: ./frontend
     container_name: mern-frontend
     ports:
@@ -13,7 +13,7 @@ services:
     restart: always
 
   backend:
-    image: yourdockerhubusername/mern-backend:latest
+    image: Samad-123/mern-backend:latest
     build: ./backend
     container_name: mern-backend
     ports:
@@ -37,3 +37,4 @@ services:
 
 volumes:
   mongo_data:
+
