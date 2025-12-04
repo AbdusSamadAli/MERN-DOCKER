@@ -12,6 +12,7 @@ A **full-stack MERN application** (MongoDB, Express, React, Node.js) fully conta
 - **Containerized:** Each service runs in its own Docker container.
 - **Environment Variables:** Backend uses `.env` for configuration.
 - **Multi-stage Docker build:** Optimized production-ready images.
+- **CI/CD:** Jenkins Pull source code, builds frontend & backend Docker images, stops old containers and deploys updated containers using Docker Compose.
 
 ---
 
@@ -21,5 +22,5 @@ A **full-stack MERN application** (MongoDB, Express, React, Node.js) fully conta
 - **Backend:** Node.js, Express, dotenv, MongoDB
 - **Database:** MongoDB
 - **Containerization:** Docker, Docker Compose
-
+- **CI/CD:** Jenkins
 ---
